@@ -1,0 +1,14 @@
+.Developer {
+	padding: 20px;
+    margin-top: 50px;
+}
+
+.Developer p{
+    font-weight: 400;
+    font-size: var(--font-medium);
+}
+
+.Developer P::first-letter{
+    font-size: var(--font-large);
+    color: var(--secondary-color);
+}

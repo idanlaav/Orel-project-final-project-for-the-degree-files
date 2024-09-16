@@ -1,0 +1,34 @@
+.MovieCard > img {
+    height: 45%;
+    margin-top: -22px;
+    object-fit: contain;
+}
+
+.MovieCard > .Title {
+    height: 8%;
+    text-align: center;
+}
+
+.MovieCard > .Genre {
+    height: 8%;
+    text-align: center;
+}
+
+.MovieCard > .Description {
+    height: 30%;
+	float: left;
+	overflow-y: scroll;
+}
+
+.MovieCard > .FlexRight {
+    display: inline-flex;
+    align-items: end !important;
+    justify-content: flex-end;
+}
+
+.OrderButton {
+    z-index: 10;
+    font-size: 12px !important;
+    margin-top: 5px;
+    width: 50px;
+}

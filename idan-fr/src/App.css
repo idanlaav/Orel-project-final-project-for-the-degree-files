@@ -1,0 +1,40 @@
+.App {
+    /* background-color: aqua; */
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(12,1fr);
+    grid-template-columns: repeat(12,1fr);
+ }
+
+.App > .Header{
+/* background-color: yellow; */
+grid-column: 12 span;
+grid-row:1 span;
+}
+
+.App > .Menu{
+
+    /* background-color:lightcoral; */
+    grid-column: 2 span;
+    grid-row:10 span;
+}
+
+.App > .Main{
+
+    /* background-color: orangered; */
+    grid-column: 10 span;
+    grid-row:10 span;
+}
+
+.App > .Footer{
+
+    /* background-color:turquoise; */
+    grid-column: 12 span;
+    grid-row:1 span;
+}
+
+.App button{
+    font-size: 26px;
+}
+

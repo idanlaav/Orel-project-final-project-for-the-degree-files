@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+  --primary-color:#ffffff;
+  --secondary-color:#e62143;
+  --background-color:#000000;
+
+  --font-small:12px;
+  --font-medium:16px;
+  --font-large:24px;
+}
+
+.dark-mode{
+  color:var(--primary-color);
+  background-color: var(--background-color);
+  border-color: var(--primary-color);
+}
+
+.light-mode{
+  color:var(--background-color);
+  background-color: var(--primary-color);
+  border-color: var(--background-color);
+
+}
+
+body {
+  margin: 0;
+  font-family:'Poppins';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body, #root{
+  height:100%;
+  width: 100%;
+  padding:0px;
+  margin:0px;
+}
+
+.displayList{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.displayList>* {
+  margin:15px;
+}
+
+.box {
+  /* background: #f4f4f4; */
+  border: 1.5px solid #ff7272;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: inline-flex;
+  width: 220px;
+  height: 340px;
+  flex-direction: column;
+}
+
+.button-44 {
+  background: #e62143;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+  font-size: 1.15em;
+  font-weight: 700;
+  justify-content: center;
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+  text-underline-offset: 1px;
+  transition: all .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  word-break: break-word;
+  border: 0;
+}
+
+.button-44:active,
+.button-44:focus {
+  border-bottom-style: none;
+  border-color: #dadada;
+  box-shadow: rgba(0, 0, 0, .3) 0 3px 3px inset;
+  outline: 0;
+}
+
+.button-44:hover {
+  border-bottom-style: none;
+  border-color: #dadada;
+}
+
+h2 {
+  font-size: 20px;
+  color: #e62143;
+  margin-left: 10px;
+}
